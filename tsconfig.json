@@ -1,14 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2017",
     "module": "commonjs",
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
     "strictPropertyInitialization": false,
-    "removeComments": true,
     "baseUrl": "./src",
-    "typeRoots": ["./@types", "./node_modules/@types"],
     "allowJs": true,
     "paths": {
       "@modules/*": ["modules/*"],
@@ -20,5 +18,5 @@
     "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["docs/*", "coverage/*", "jest.config.js", "prettier.config.js"]
+  "include": ["./src/**/*"]
 }
