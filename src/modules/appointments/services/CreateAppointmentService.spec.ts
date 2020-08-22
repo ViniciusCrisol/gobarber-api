@@ -2,8 +2,8 @@ import AppError from '@shared/errors/AppError';
 import FakeAppointmentsRepository from '../repositories/fakes/FakeAppointmentsRepository';
 import CreateAppointmentService from './CreateAppointmentService';
 
-let fakeAppointmentsRepository: FakeAppointmentsRepository;
 let createAppointment: CreateAppointmentService;
+let fakeAppointmentsRepository: FakeAppointmentsRepository;
 
 describe('CreateAppointment', () => {
   beforeEach(() => {

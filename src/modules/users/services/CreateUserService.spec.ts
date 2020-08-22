@@ -4,9 +4,10 @@ import FakeHashProvider from '../providers/HashProvider/fakes/FakeHashProvider';
 
 import CreateUserService from './CreateUserService';
 
-let fakeUsersRepository: FakeUsersRepository;
 let fakeHashProvider: FakeHashProvider;
 let createUser: CreateUserService;
+
+let fakeUsersRepository: FakeUsersRepository;
 
 describe('CreateUser', () => {
   beforeEach(() => {
