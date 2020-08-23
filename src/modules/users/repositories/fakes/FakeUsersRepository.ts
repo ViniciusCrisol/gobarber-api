@@ -1,6 +1,6 @@
 import { uuid } from 'uuidv4';
 
-import IFindAllProvidersDTO from '@modules/appointments/dtos/IFindAllProvidersDTO';
+import IFindAllProvidersDTO from '@modules/users/dtos/IFindAllProvidersDTO';
 import ICreateUserDTO from '@modules/users/dtos/ICreateUserDTO';
 import IUsersRepository from '@modules/users/repositories/IUsersRepository';
 
