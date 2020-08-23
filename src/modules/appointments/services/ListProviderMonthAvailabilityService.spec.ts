@@ -15,66 +15,79 @@ describe('ListProviderMonthAvailability', () => {
 
   it('should be able to list the the month availability from provider', async () => {
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 3, 20, 8, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 8, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 9, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 10, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 11, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 12, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 13, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 14, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 15, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 16, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 17, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 18, 0, 0),
     });
 
     await fakeAppointmentsRepository.create({
+      user_id: '9719f904-ed53-4d2b-8729-87533',
       provider_id: 'user',
       date: new Date(2020, 4, 20, 19, 0, 0),
     });
